@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Administrador
+ * @author Matheus Fidelis | 11211100176 e Renato Kishi | 11221401522
  */
 public class CalculadorMedia {
 
