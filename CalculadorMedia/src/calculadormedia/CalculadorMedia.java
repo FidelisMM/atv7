@@ -1,6 +1,8 @@
 
 package calculadormedia;
 
+import exemplos.Conversao;
+
 import java.util.Scanner;
 
 /**
@@ -11,6 +13,7 @@ public class CalculadorMedia {
 
     public static void main(String[] args) {
         Aluno aluno1 = new Aluno();
+        Conversao cexemplo = new Conversao();
         
         Scanner sc = new Scanner(System.in);
         
@@ -27,6 +30,14 @@ public class CalculadorMedia {
         System.out.println("Segunda Nota: "+aluno1.getM2());
         System.out.println();
         System.out.println("Média Final: "+aluno1.getMedia());
+        
+        System.out.println();
+        System.out.println("---[Exemplos]---");
+        
+        cexemplo.converter();
+        System.out.println();
+        
+        
     }
     
 }
